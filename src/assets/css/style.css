@@ -147,7 +147,7 @@ footer p {
 .card-title {
   font-size: 1.1rem;
 }
-.card i{
+.project-card i{
   font-size: 30px;
   color: #5b5d5e;
 }
@@ -162,8 +162,49 @@ footer p {
   color: white;
   background-color: #ff8521;
 }
+.notfound-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+  padding: 20px;
+}
 
+.notfound-container {
+  text-align: center;
+  max-width: 600px;
+  padding: 50px 30px;
+  border-radius: 20px;
+}
 
+.notfound-title {
+  font-size: 120px;
+  font-weight: 800;
+  color: #ff8521;
+  margin-bottom: 10px;
+}
 
+.notfound-subtitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
 
+.notfound-text {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.notfound-btn {
+  background-color: #ff8521;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
 
